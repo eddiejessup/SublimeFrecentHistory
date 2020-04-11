@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "FileHistory: Open recent file",
+        "command": "open_recently_closed_file",
+    }
+]
