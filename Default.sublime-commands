@@ -1,6 +1,21 @@
 [
     {
-        "caption": "FileHistory: Open recent file",
-        "command": "open_recently_closed_file",
-    }
+        "caption": "FrecentHistory: See file",
+        "command": "open_frecent_file",
+    },
+    {
+        "caption": "FrecentHistory: See file from master history",
+        "command": "open_frecent_file",
+        "args": {"use_master": true }
+    },
+    {
+        "caption": "FrecentHistory: See opened file",
+        "command": "open_frecent_file",
+        "args": {"open_status_filter": "opened" }
+    },
+    {
+        "caption": "FrecentHistory: See closed file",
+        "command": "open_frecent_file",
+        "args": {"open_status_filter": "closed" }
+    },
 ]

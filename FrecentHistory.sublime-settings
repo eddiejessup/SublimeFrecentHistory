@@ -1,0 +1,10 @@
+{
+    // Maximum number of history entries to keep.
+    "max_master_entries": 1000,
+    // Show a preview of the history entries?
+    "show_file_preview": true,
+    // Print out debug text?
+    "print_debug": true,
+    // Where to store history.
+    "history_path": "~/.sublime_file_history.json",
+}
